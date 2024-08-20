@@ -6,12 +6,16 @@ from base_caching import BaseCaching
 
 
 class node:
+    """ghfhghjkjkjkj"""
+
     def __init__(self, key, value, next) -> None:
+        """ghfhghjkjkjkj"""
         self.key = key
         self.value = value
         self.next = next
 
     def __str__(self) -> str:
+        """ghfhghjkjkjkj"""
         return self.value
 
 
@@ -19,6 +23,7 @@ class FIFOCache(BaseCaching):
     """do task ffkgkdfgdf"""
 
     def __init__(self):
+        """ghfhghjkjkjkj"""
         super().__init__()
         self.front = None
         self.back = None
