@@ -6,10 +6,10 @@ from BaseCaching import BaseCaching
 
 
 class BasicCache(BaseCaching):
-    """do task"""
+    """do task ffkgkdfgdf"""
 
     def __init__(self):
-        """inhetr"""
+        """inhetr dfddfgg"""
         super().__init__()
 
     def put(self, key, item):
