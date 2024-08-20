@@ -8,10 +8,6 @@ from BaseCaching import BaseCaching
 class BasicCache(BaseCaching):
     """do task ffkgkdfgdf"""
 
-    def __init__(self):
-        """inhetr dfddfgg"""
-        super().__init__()
-
     def put(self, key, item):
         """Add an item in the cache"""
         if key is None or item is None:
